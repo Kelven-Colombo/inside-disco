@@ -1,15 +1,23 @@
+import styled from "styled-components";
 import GridLivros from "../GridLivros";
 import { Titulo } from "../../ui/Titulo/index";
 
-function CardRecomenda({ recomendacoes }) {
+
+
+const CardRecomendaContainer = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 32px;
+`;
+
+function CardRecomenda({ recomendacoes, adicionaFavorito }) {
   return (
-    <div>
-      <Titulo tamanhoFonte="30px" alinhamento="left">
-        Talvez você se interesse por...
+    <CardRecomendaContainer>
+      <Titulo $tamanhoFonte="30px" $alinhamento="left">
+        Recomendações:
       </Titulo>
-      <GridLivros livros={recomendacoes} />
-      <button>Saiba mais</button>
-    </div>
+      <GridLivros livros={recomendacoes} aoClicarNoLivro={adicionaFavorito} />
+    </CardRecomendaContainer>
   );
 }
 

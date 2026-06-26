@@ -31,7 +31,7 @@ function Pesquisa() {
 
   async function adicionaFavorito(livro) {
     await postFavorito(livro.id);
-    alert(`Livro favoritado com sucesso!`);
+    alert(`Disco favoritado com sucesso!`);
   }
 
   useEffect(() => {
@@ -42,9 +42,9 @@ function Pesquisa() {
     <PesquisaSection>
       <PesquisaContainer>
         <Titulo>Já sabe por onde começar?</Titulo>
-        <Subtitulo>Encontre seu livro em nossa estante</Subtitulo>
+        <Subtitulo>Encontre um novo disco</Subtitulo>
         <Input
-          placeholder="Escreva sua próxima leitura"
+          placeholder="Em busca de algum disco?"
           onKeyDown={(evento) => {
             if (evento.key === "Enter") {
               const textoDigitado = evento.target.value;

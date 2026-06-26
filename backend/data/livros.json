@@ -1,13 +1,83 @@
 [
-  { "id": "15", "nome": "Dundie" },
-  { "id": "2", "nome": "O Senhor dos Anéis" },
-  { "id": "3", "nome": "Fundação" },
-  { "id": "4", "nome": "O Guia do Mochileiro das Galáxias" },
-  { "id": "5", "nome": "Neuromancer" },
-  { "id": "7", "nome": "1984" },
-  { "id": "8", "nome": "American Gods" },
-  { "id": "10", "nome": "O Problema dos Três Corpos" },
-  { "id": "11", "nome": "KOF: Become a pro player in 67 seconds" },
-  { "id": "20", "nome": "Twin Peaks" },
-  { "id": "16", "nome": "Mickey 17" }
+  {
+    "id": "1",
+    "nome": "Discovery",
+    "artista": "Daft Punk",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/2/27/Daft_Punk_-_Discovery.png"
+  },
+  {
+    "id": "2",
+    "nome": "OK Computer",
+    "artista": "Radiohead",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/b/ba/Radioheadokcomputer.png"
+  },
+  {
+    "id": "3",
+    "nome": "Random Access Memories",
+    "artista": "Daft Punk",
+    "capa": "https://akamai.sscdn.co/uploadfile/letras/albuns/f/1/a/d/302971685039122.jpg"
+  },
+  {
+    "id": "4",
+    "nome": "In Rainbows",
+    "artista": "Radiohead",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/1/14/Inrainbowscover.png"
+  },
+  {
+    "id": "5",
+    "nome": "Sla Radical Dance Disco Club",
+    "artista": "Fernanda Abreu",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2731c0386f6a3e563c0853bd263"
+  },
+  {
+    "id": "6",
+    "nome": "The Moon and the Melodies (2024 Remaster)",
+    "artista": "Cocteau Twins",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f510b1ab6184d8eecf6ba4bc"
+  },
+  { "id": "7", "nome": "The Car", "artista": "Arctic Monkeys", "capa": "https://i.scdn.co/image/ab67616d0000b27307823ee6237208c835802663" },
+  { "id": "8", "nome": "Painted Ruins", "artista": "Grizzly Bear", "capa": "https://media.pitchfork.com/photos/595d4f956b348e163ce24c07/master/pass/600x600bb-10.jpg" },
+  {
+    "id": "9",
+    "nome": "Desire, I Want To Turn Into You",
+    "artista": "Caroline Polachek",
+    "capa": "https://upload.wikimedia.org/wikipedia/pt/5/57/Desire%2C_I_Want_to_Turn_Into_You_capa.png"
+  },
+  {
+    "id": "10",
+    "nome": "A Tabua De Esmeralda",
+    "artista": "Jorge Ben Jor",
+    "capa": "https://akamai.sscdn.co/uploadfile/letras/albuns/e/d/2/5/91301747071205.jpg"
+  },
+  {
+    "id": "11",
+    "nome": "Clube Da Esquina",
+    "artista": "Milton Nascimento",
+    "capa": "https://upload.wikimedia.org/wikipedia/pt/c/cb/Milton_Nascimento_-_Clube_da_Esquina.jpg"
+  },
+  {
+    "id": "12",
+    "nome": "A Very Lonely Solstice",
+    "artista": "Fleet Foxes",
+    "capa": "https://m.media-amazon.com/images/I/61OxWfW9g7L._UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": "13",
+    "nome": "Entertainment!",
+    "artista": "Gang Of Four",
+    "capa": ""
+  },
+  {
+    "id": "14",
+    "nome": "And In The Darkness, Hearts Aglow",
+    "artista": "Weyes Blood",
+    "capa": ""
+  },
+  {
+    "id": "15",
+    "nome": "Mahashmashana",
+    "artista": "Father John Misty",
+    "capa": ""
+  },
+  { "id": "16", "nome": "After Laughter", "artista": "Paramore", "capa": "" }
 ]

@@ -1,4 +1,4 @@
-import logo from "../../Images/k-books-logo.svg";
+import logo from "../../Images/inside-disco-logo.svg";
 import styled from "styled-components";
 
 const LogoContainer = styled.div`
@@ -13,14 +13,14 @@ const LogoContainer = styled.div`
 `;
 
 const LogoImage = styled.img`
-  max-width: 50px;
+  width: 150px;
+  height: auto;
 `;
 
 function Logo() {
   return (
     <LogoContainer>
-      <LogoImage src={logo} alt="Logo da Alura Books" />
-      <p>Books</p>
+      <LogoImage src={logo} alt="Logo da Inside Disco" />
     </LogoContainer>
   );
 }

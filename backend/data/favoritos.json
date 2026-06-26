@@ -1,1 +1,32 @@
-[{"id":"20","nome":"Twin Peaks"},{"id":"15","nome":"Dundie"},{"id":"7","nome":"1984"}]
+[
+  {
+    "id": "11",
+    "nome": "Clube Da Esquina",
+    "artista": "Milton Nascimento",
+    "capa": "https://upload.wikimedia.org/wikipedia/pt/c/cb/Milton_Nascimento_-_Clube_da_Esquina.jpg"
+  },
+  {
+    "id": "7",
+    "nome": "The Car",
+    "artista": "Arctic Monkeys",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27307823ee6237208c835802663"
+  },
+  {
+    "id": "4",
+    "nome": "In Rainbows",
+    "artista": "Radiohead",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/1/14/Inrainbowscover.png"
+  },
+  {
+    "id": "5",
+    "nome": "Sla Radical Dance Disco Club",
+    "artista": "Fernanda Abreu",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2731c0386f6a3e563c0853bd263"
+  },
+  {
+    "id": "10",
+    "nome": "A Tabua De Esmeralda",
+    "artista": "Jorge Ben Jor",
+    "capa": "https://akamai.sscdn.co/uploadfile/letras/albuns/e/d/2/5/91301747071205.jpg"
+  }
+]

@@ -10,22 +10,22 @@ const Opcao = styled.li`
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 10px;
+  padding: 0 30px;
   min-width: 120px;
   height: 100%;
   cursor: pointer;
 `;
 
-const textoOpcoes = ["CATEGORIAS", "FAVORITOS", "MINHA ESTANTE"];
+const textoOpcoes = ["ARTISTAS", "GÊNEROS", "FAVORITOS", "LISTAS"];
 
 function OpcoesHeader() {
   return (
     <Opcoes>
       {textoOpcoes.map((texto) => (
-        <LinksHeader to={`/${texto.toLowerCase()}`}>
-          <Opcao>
-            {texto}
-          </Opcao>
+        <LinksHeader 
+        to={`/${texto.toLowerCase()}`}
+        key={texto}>
+          <Opcao >{texto}</Opcao>
         </LinksHeader>
       ))}
     </Opcoes>

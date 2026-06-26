@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Titulo = styled.h2`
-  color: ${(props) => props.cor || "#ffffff"};
-  font-size: ${(props) => props.tamanhoFonte || "36px"};
-  text-align: ${(props) => props.alinhamento || "center"};
+  color: ${(props) => props.$cor || "#ffffff"};
+  font-size: ${(props) => props.$tamanhoFonte || "36px"};
+  text-align: ${(props) => props.$alinhamento || "center"};
   width: 100%;
 `;
 

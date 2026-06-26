@@ -5,7 +5,7 @@ const LinksHeader = styled(Link)`
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  font-size: large;
+  font-size: 25px;
 `;
 
 export default LinksHeader;

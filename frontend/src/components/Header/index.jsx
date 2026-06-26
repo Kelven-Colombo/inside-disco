@@ -3,7 +3,6 @@ import OpcoesHeader from "../OpcoesHeader";
 import IconesHeader from "../IconesHeader";
 import styled from "styled-components";
 import LinksHeader from "../../ui/LinksHeader";
-import { Link } from "react-router-dom";
 
 const HeaderContainer = styled.header`
   background-color: rgba(255, 255, 255, 0.8);
